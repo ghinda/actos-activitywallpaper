@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Activity Wallpaper
+Comment=Automatically sets desktop wallpapers as icons for activities
+Icon=preferences-desktop-wallpaper
+Type=Service
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-DefaultSize=1,1
+X-Plasma-NotificationArea=false
+X-Plasma-RequiredExtensions=LocalIO
+X-KDE-ServiceTypes=Plasma/Applet
+ 
+X-KDE-PluginInfo-Author=Ionut Colceriu
+X-KDE-PluginInfo-Email=contact@ghinda.net
+X-KDE-PluginInfo-Website=http://ghinda.net
+X-KDE-PluginInfo-Category=Miscellaneous
+X-KDE-PluginInfo-Name=actos-activitywallpaper
+X-KDE-PluginInfo-Version=0.1
+ 
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
